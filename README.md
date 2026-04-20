@@ -189,7 +189,7 @@ docker run -p 8000:8000 mlops-financial-system
 
 # 👨‍💻 Author
 
-Developed as part of a **hands-on MLOps portfolio project** demonstrating real-world machine learning system design and deployment.
+Architected and built as a real-world ML platform illustrating enterprise architecture principles, cloud-native deployment, and scalable system design. Deployed on AWS ECS (Fargate) with Application Load Balancer, following production-grade architecture patterns.
 
 ---
 
