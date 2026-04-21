@@ -34,7 +34,7 @@ This project demonstrates **real-world ML system design**, focusing on **consist
 * 🔐 Input validation using Pydantic
 * 📜 Logging for requests, predictions, and errors
 * 📡 REST API for real-time predictions
-* 🐳 Dockerized deployment
+* 🐳 Dockerized AWS ECS deployment
 
 ---
 
@@ -63,7 +63,7 @@ This project demonstrates **real-world ML system design**, focusing on **consist
 
 * Pydantic (input validation)
 * Logging (Python logging module)
-* Docker
+* Docker, AWS ECS (Fargate), ALB
 
 ---
 
@@ -128,7 +128,7 @@ docker run -p 8000:8000 mlops-financial-system
 
 ### 4️⃣ Access API
 
-* Swagger UI: http://localhost:8000/docs
+* Swagger UI: http://localhost:8000/docs or http://ALB_URL(if further deployed using ECS and ALB)
 
 ---
 
@@ -173,7 +173,7 @@ docker run -p 8000:8000 mlops-financial-system
 * Ensured **training-inference consistency**, a critical MLOps requirement
 * Implemented **input validation and logging for reliability**
 * Designed **modular and reusable pipeline architecture**
-* Delivered **deployable solution using Docker**
+* Delivered **deployable solution using Docker, ECS and ALB**
 
 ---
 
@@ -189,7 +189,8 @@ docker run -p 8000:8000 mlops-financial-system
 
 # 👨‍💻 Author
 
-Architected and built as a real-world ML platform illustrating enterprise architecture principles, cloud-native deployment, and scalable system design. Deployed on AWS ECS (Fargate) with Application Load Balancer, following production-grade architecture patterns.
+Architected and built as a real-world ML platform illustrating enterprise architecture principles, cloud-native deployment, and scalable system design. 
+Deployed on AWS ECS (Fargate) with Application Load Balancer, following production-grade architecture patterns.
 
 ---
 
