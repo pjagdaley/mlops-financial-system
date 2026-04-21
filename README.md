@@ -78,6 +78,9 @@ This project demonstrates **real-world ML system design**, focusing on **consist
 
 # 🏗️ Architecture
 
+![Architecture](./architecture.png)
+
+**Simplified Flow:**
 ```id="mlopsarch"
 Raw Input (API Request)
         │
